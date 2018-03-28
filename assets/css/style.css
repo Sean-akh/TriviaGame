@@ -1,0 +1,148 @@
+/**** Reset ****/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video header1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+body{
+    font-size: 18px;
+    font-family: open sans;
+    color: #2c3235;
+    font-weight: 400;
+    text-align: center;
+}
+
+.jumbotron {
+    height: 200px;
+    background-color: #c8c8c8;
+    vertical-align: middle;
+    border-bottom: 10px solid #0077f0;
+    box-shadow: 5px 5px 20px #555555;
+}
+
+#jumboInside{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    padding-top: 2%;
+}
+
+h1{
+    font-family: Exo;
+    font-size: 65px;
+    font-weight: 400;
+    color: #b11116;
+    padding: 10px;
+}
+h2{
+    font-family: Exo;
+    font-size: 35px;
+    font-weight: 400;
+    color: #0077f0;
+     margin: 0px;
+    padding: 10px;
+}
+h4{
+  font-family: Exo;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2c3235;;
+   margin: 0px;
+  padding: 5px;
+}
+
+#rowQuiz {
+    border-bottom: 30px solid #0077f0;
+    border-top: 10px solid #0077f0;
+    margin-top: 2em;
+    background: #D5D5D5;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    box-shadow: 5px 5px 20px #555555;
+    border-radius: 20px;
+}
+
+.question{
+  font-size: 23px;
+  margin-bottom: 1%;
+}
+
+.answers {
+    font-family: Exo;
+    font-weight: 500;
+    margin-bottom: 22px;
+  text-align: left;
+  display: inline-block;
+  letter-spacing: 0.05em;
+}
+
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+button{
+  font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: .03em;
+    background-color: #0077f0;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px #555555;
+    margin-top: 2em;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: #0057b0;
+    box-shadow: 0px 0px 10px #555555;
+}
+
+
+/***** Slide ****/
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}

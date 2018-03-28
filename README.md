@@ -1,2 +1,1 @@
 # TriviaGame
-jQuery Trivia Game

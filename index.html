@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Google font import for Open Sans and Exo2-->
+        <link href="https://fonts.googleapis.com/css?family=Exo:300,400,500,700|Open+Sans+Condensed:300|Open+Sans:200,300,400|PT+Sans|Raleway" rel="stylesheet">
+
+        <!-- connect to jquery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+        <!-- My Style sheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
+      
+    </head>
+<body>
+    <div>
+        <div class="jumbotron">
+            <div id="jumboInside"><h1>Trivia Game</h1></div>
+            <div id="timeBox"></div>
+        </div>
+        <div id="rowQuiz">
+            <!-- Let the Game Begins -->
+            <div class="quiz-container">
+            <div id="quiz"></div>
+            </div>
+            <button id="previous">Previous Question</button>
+            <button id="next">Next Question</button>
+            <button id="submit">Submit Quiz</button>
+            <div id="results"></div>
+            <!-- Game ENDS -->
+
+        </div>
+    </div>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
